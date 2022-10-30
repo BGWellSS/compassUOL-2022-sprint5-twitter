@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "app/dist/js",
+    "target": "ES6",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmitOnError": true,
+    "removeComments": true,
+    "sourceMap": true
+  },
+  "include": ["app/src/js/**/*"]
+}

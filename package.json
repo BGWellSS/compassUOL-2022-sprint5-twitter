@@ -1,0 +1,25 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/BGWellSS/compass-front-sprint5-twitter.git",
+  "author": "Wellington Souza <wellington.souza.pb@compasso.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "lite-server --baseDir=app/dist",
+    "start": "concurrently \"yarn watch\" \"yarn server\" \"yarn sass\"",
+    "sass": "sass --watch app/src/styles:app/dist/styles",
+    "compile": "tsc",
+    "watch": "tsc -w",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "concurrently": "^7.5.0",
+    "lite-server": "^2.6.1",
+    "sass": "^1.55.0",
+    "storybook": "^6.5.13",
+    "typescript": "^4.8.4"
+  }
+}
