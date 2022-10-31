@@ -41,7 +41,7 @@ export const createMenuItem = ({
     return menuItem;
   }
   menuItem = `
-    <li class="menu-item">
+    <li class="menu-item${dark ? " menu-dark" : ""}">
       <a href="${linkURL ? linkURL : ""}">
         <picture class="image-container">
           <img src="/images/icon-${iconName}${
