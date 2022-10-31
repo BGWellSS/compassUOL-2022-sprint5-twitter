@@ -369,6 +369,12 @@ body {
   line-height: 1.9rem;
 }
 
+.page-header .header-title {
+  font-size: 1.9rem;
+  line-height: 2.2rem;
+  font-weight: bold;
+}
+
 .app-button {
   width: 100%;
   border: none;
@@ -441,7 +447,7 @@ body {
   height: 100vh;
 }
 .aside-menu .app-button {
-  margin-top: 10px;
+  margin: 10px 0;
 }
 .aside-menu .profile {
   margin-top: auto;
@@ -475,6 +481,27 @@ body {
 }
 .profile.profile-dark .user-tagname {
   color: #8899A6;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #EBEEF0;
+}
+.page-header .header-title {
+  margin: 0;
+  margin-right: 15px;
+  color: #000000;
+}
+.page-header .image-container {
+  margin-left: auto;
+}
+.page-header.header-dark .header-title {
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=main.css.map */
