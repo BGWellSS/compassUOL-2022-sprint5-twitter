@@ -68,6 +68,7 @@ export const createMenu = ({ dark }) => {
         userName: "User Name",
         userTagName: "@tagname",
         profileType: "basic",
+        dark: dark ? dark : false,
     });
     const sideMenu = `
     <aside class="aside-menu aside-container ${dark ? "menu-dark" : ""}">

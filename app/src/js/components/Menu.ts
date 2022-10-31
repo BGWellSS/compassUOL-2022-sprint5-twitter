@@ -75,6 +75,7 @@ export const createMenu = ({ dark }: MenuProps) => {
     userName: "User Name",
     userTagName: "@tagname",
     profileType: "basic",
+    dark: dark ? dark : false,
   });
 
   const sideMenu = `
