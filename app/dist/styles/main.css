@@ -348,10 +348,25 @@ body {
   font-weight: 400;
 }
 
+.btn-secondary {
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+  font-weight: bold;
+}
+
 .menu-item .label {
   font-size: 1.9rem;
   line-height: 2.2rem;
   font-weight: bold;
+}
+
+.profile .profile-content .user-name {
+  font-weight: bold;
+  line-height: 1.9rem;
+}
+.profile .profile-content .user-tagname {
+  font-weight: normal;
+  line-height: 1.9rem;
 }
 
 .app-button {
@@ -388,11 +403,11 @@ body {
 }
 
 .btn-medium {
-  padding: 10px;
+  padding: 10px 17px;
 }
 
 .btn-small {
-  padding: 6px;
+  padding: 6px 17px;
 }
 
 .btn-fade {
@@ -417,6 +432,35 @@ body {
 }
 .menu-item.menu-selected .label {
   color: #1DA1F2;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.profile .profile-content {
+  margin-left: 10px;
+}
+.profile .profile-content p {
+  margin: 0;
+}
+.profile .profile-content .user-name {
+  color: #000000;
+}
+.profile .profile-content .user-tagname {
+  color: #5B7083;
+}
+.profile .profile-button {
+  margin-left: auto;
+  padding: 8px;
+}
+.profile.profile-dark .user-name {
+  color: #ffffff;
+}
+.profile.profile-dark .user-tagname {
+  color: #8899A6;
 }
 
 /*# sourceMappingURL=main.css.map */

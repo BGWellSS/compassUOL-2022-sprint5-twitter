@@ -7,11 +7,36 @@ body {
   font-weight: 400;
 }
 
-//
+// ---- Button
+// - butonSecondary
+.btn-secondary {
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+  font-weight: bold;
+}
+
+// ---- Menu
+// - menuItem
 .menu-item {
   .label {
     font-size: 1.9rem;
     line-height: 2.2rem;
     font-weight: bold;
+  }
+}
+
+// ---- Profile
+// - content
+.profile {
+  .profile-content {
+    .user-name {
+      font-weight: bold;
+      line-height: 1.9rem;
+    }
+
+    .user-tagname {
+      font-weight: normal;
+      line-height: 1.9rem;
+    }
   }
 }
