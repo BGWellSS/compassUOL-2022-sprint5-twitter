@@ -9,7 +9,7 @@ export default {
     userTagName: { control: "text" },
     profileType: {
       control: { type: "select" },
-      options: ["basic", "folow"],
+      options: ["basic", "follow"],
     },
     dark: { control: "boolean" },
     userID: { control: "text" },
@@ -21,9 +21,32 @@ const Template: Story<ProfileProps> = (args: any) => {
   return createProfile(args);
 };
 
-export const profileLigth = Template.bind({});
-profileLigth.args = {
+export const profileBasicLigth = Template.bind({});
+profileBasicLigth.args = {
   userName: "User Name",
   userTagName: "@tagname",
   profileType: "basic",
+};
+
+export const profileBasicDark = Template.bind({});
+profileBasicDark.args = {
+  userName: "User Name",
+  userTagName: "@tagname",
+  profileType: "basic",
+  dark: true,
+};
+
+export const profileFolowLigth = Template.bind({});
+profileFolowLigth.args = {
+  userName: "User Name",
+  userTagName: "@tagname",
+  profileType: "follow",
+};
+
+export const profileFolowDark = Template.bind({});
+profileFolowDark.args = {
+  userName: "User Name",
+  userTagName: "@tagname",
+  profileType: "follow",
+  dark: true,
 };

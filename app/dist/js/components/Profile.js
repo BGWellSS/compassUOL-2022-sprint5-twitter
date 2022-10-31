@@ -9,14 +9,14 @@ export const createProfile = ({ userName, userTagName, profileType, dark, userID
     });
     function profileButton() {
         if (profileType === "basic") {
-            return `<a href="${linkURL ? linkURL : "/403.html"}">
+            return `<a href="${linkURL ? linkURL : "#"}">
                 <img src="/images/icon-config${dark ? "-dark" : ""}.png" alt="config icon" class="config-icon">
               </a>`;
         }
         return createButton({
             btnType: "secondary",
             label: "Follow",
-            size: "medium",
+            size: "small",
         });
     }
     const profileContent = `

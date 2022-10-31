@@ -5,7 +5,7 @@ import "./../../../dist/styles/main.css";
 export interface ProfileProps {
   userName: string;
   userTagName: string;
-  profileType: "basic" | "folow";
+  profileType: "basic" | "follow";
   dark?: boolean;
   userID?: string;
   linkURL?: string;
@@ -27,7 +27,7 @@ export const createProfile = ({
 
   function profileButton(): string {
     if (profileType === "basic") {
-      return `<a href="${linkURL ? linkURL : "/403.html"}">
+      return `<a href="${linkURL ? linkURL : "#"}">
                 <img src="/images/icon-config${
                   dark ? "-dark" : ""
                 }.png" alt="config icon" class="config-icon">
@@ -36,7 +36,7 @@ export const createProfile = ({
     return createButton({
       btnType: "secondary",
       label: "Follow",
-      size: "medium",
+      size: "small",
     });
   }
 
