@@ -29,3 +29,20 @@
     }
   }
 }
+
+// Aside Menu (main menu)
+.aside-menu {
+  display: flex;
+  flex-direction: column;
+  max-width: 30vw;
+  height: 100vh;
+
+  .app-button {
+    margin-top: 10px;
+  }
+
+  .profile {
+    margin-top: auto;
+    align-self: flex-end;
+  }
+}
