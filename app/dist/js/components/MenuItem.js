@@ -1,5 +1,5 @@
 import "./../../../dist/styles/main.css";
-export const createMenuItem = ({ label, iconName, linkURL, dark, selected, }) => {
+export const createMenuItem = ({ iconName, label, linkURL, dark, selected, }) => {
     let menuItem = ``;
     if (selected) {
         menuItem = `
@@ -8,7 +8,7 @@ export const createMenuItem = ({ label, iconName, linkURL, dark, selected, }) =>
         <picture class="image-container">
           <img src="/images/icon-${iconName}${selected ? "-selected" : ""}.png" alt="${iconName} menu icon">
         </picture>
-        <span class="label">${label}</span>
+        <span class="label">${label ? label : ""}</span>
       </a>
     </li>
     `;
@@ -20,7 +20,7 @@ export const createMenuItem = ({ label, iconName, linkURL, dark, selected, }) =>
         <picture class="image-container">
           <img src="/images/icon-${iconName}${dark ? "-dark" : ""}.png" alt="${iconName} menu icon">
         </picture>
-        <span class="label">${label}</span>
+        <span class="label">${label ? label : ""}</span>
       </a>
     </li>
     `;

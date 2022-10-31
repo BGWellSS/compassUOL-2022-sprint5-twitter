@@ -2,7 +2,6 @@ import { createMenuItem } from "./MenuItem";
 export default {
     title: "Components/MenuItem",
     argTypes: {
-        label: { control: "text" },
         iconName: {
             control: { type: "select" },
             options: [
@@ -17,6 +16,7 @@ export default {
                 "more",
             ],
         },
+        label: { control: "text" },
         linkURL: { control: "text" },
         dark: { control: "boolean" },
         selected: { control: "boolean" },

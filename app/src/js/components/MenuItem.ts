@@ -1,7 +1,6 @@
 import "./../../../dist/styles/main.css";
 
 export interface MenuItemProps {
-  label: string;
   iconName:
     | "logo"
     | "home"
@@ -12,14 +11,15 @@ export interface MenuItemProps {
     | "lists"
     | "profile"
     | "more";
+  label?: string;
   linkURL?: string;
   dark?: boolean;
   selected?: boolean;
 }
 
 export const createMenuItem = ({
-  label,
   iconName,
+  label,
   linkURL,
   dark,
   selected,
@@ -34,7 +34,7 @@ export const createMenuItem = ({
       selected ? "-selected" : ""
     }.png" alt="${iconName} menu icon">
         </picture>
-        <span class="label">${label}</span>
+        <span class="label">${label ? label : ""}</span>
       </a>
     </li>
     `;
@@ -48,7 +48,7 @@ export const createMenuItem = ({
     dark ? "-dark" : ""
   }.png" alt="${iconName} menu icon">
         </picture>
-        <span class="label">${label}</span>
+        <span class="label">${label ? label : ""}</span>
       </a>
     </li>
     `;
