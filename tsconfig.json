@@ -3,6 +3,7 @@
     "outDir": "app/dist/js",
     "target": "ESNext",
     "module": "ESNext",
+    "moduleResolution": "Node",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
