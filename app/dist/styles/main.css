@@ -375,6 +375,17 @@ body {
   font-weight: bold;
 }
 
+.tweet-post .text-imput {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+}
+.tweet-post .text-imput::placeholder {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+}
+
 .app-button {
   width: 100%;
   border: none;
@@ -502,6 +513,37 @@ body {
 }
 .page-header.header-dark .header-title {
   color: #ffffff;
+}
+
+.tweet-post {
+  display: flex;
+  width: 100%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+.tweet-post .post-imput-container {
+  width: 100%;
+  margin-left: 12px;
+}
+.tweet-post .text-imput {
+  width: 100%;
+  padding: 12px 0;
+  margin-bottom: 24px;
+  outline: none;
+  border: 0;
+}
+.tweet-post .text-imput::placeholder {
+  color: #5B7083;
+}
+.tweet-post .menu-container {
+  display: flex;
+  justify-content: space-between;
+}
+.tweet-post .post-menu-icons input {
+  margin-right: 15px;
+}
+.tweet-post.post-dark .text-imput::placeholder {
+  color: #8899A6;
 }
 
 /*# sourceMappingURL=main.css.map */
