@@ -1,10 +1,10 @@
-import "./button.css";
-export const createButton = ({ primary = false, size = "medium", label, }) => {
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.textContent = label;
-    const mode = primary ? "button--primary" : "button--secondary";
-    btn.className = ["storybook-button", `storybook-button--${size}`, mode].join(" ");
+import "./../../../dist/styles/main.css";
+export const createButton = ({ label, btnType, size, fade }) => {
+    const btn = `
+    <button class="app-button btn-${btnType} ${fade ? "btn-fade" : ""} btn-${size}">
+      ${label}
+    </button>
+  `;
     return btn;
 };
 //# sourceMappingURL=Button.js.map

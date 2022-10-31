@@ -5,29 +5,15 @@ export interface ButtonProps {
   btnType: "primary" | "secondary" | "tertiary" | "quaternary";
   size: "small" | "medium" | "big";
   fade?: boolean;
-  onClick?: () => void;
 }
 
-export const createButton = ({
-  label,
-  btnType,
-  size,
-  fade,
-  onClick,
-}: ButtonProps) => {
-  const btn = document.createElement("button");
-  btn.type = "button";
-  btn.textContent = label;
-
-  btn.className = [
-    "app-button",
-    `btn-${btnType}`,
-    `${fade ? "btn-fade" : ""}`,
-    `btn-${size}`,
-  ].join(" ");
-  if (onClick) {
-    btn.addEventListener("click", onClick);
-  }
-
+export const createButton = ({ label, btnType, size, fade }: ButtonProps) => {
+  const btn = `
+    <button class="app-button btn-${btnType} ${
+    fade ? "btn-fade" : ""
+  } btn-${size}">
+      ${label}
+    </button>
+  `;
   return btn;
 };
