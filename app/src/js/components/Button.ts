@@ -25,7 +25,9 @@ export const createButton = ({
     `${fade ? "btn-fade" : ""}`,
     `btn-${size}`,
   ].join(" ");
-  btn.addEventListener("click", onClick);
+  if (onClick) {
+    btn.addEventListener("click", onClick);
+  }
 
   return btn;
 };
