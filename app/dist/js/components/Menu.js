@@ -71,7 +71,7 @@ export const createMenu = ({ dark }) => {
         dark: dark ? dark : false,
     });
     const sideMenu = `
-    <aside class="aside-menu aside-container ${dark ? "menu-dark" : ""}">
+    <aside class="aside-menu aside-container${dark ? " menu-dark" : ""}">
       <ul class="main-menu">
         ${menuItems
         .map((item) => {
