@@ -19,7 +19,7 @@ export default {
   },
 } as Meta;
 
-const Template: Story<ButtonProps> = (args) => {
+const Template: Story<ButtonProps> = (args: any) => {
   return createButton(args);
 };
 

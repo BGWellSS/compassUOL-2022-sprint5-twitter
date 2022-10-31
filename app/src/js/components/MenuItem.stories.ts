@@ -26,7 +26,7 @@ export default {
   },
 } as Meta;
 
-const Template: Story<MenuItemProps> = (args) => {
+const Template: Story<MenuItemProps> = (args: any) => {
   return createMenuItem(args);
 };
 
