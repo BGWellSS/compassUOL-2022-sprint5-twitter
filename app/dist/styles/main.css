@@ -348,6 +348,12 @@ body {
   font-weight: 400;
 }
 
+.menu-item .label {
+  font-size: 1.9rem;
+  line-height: 2.2rem;
+  font-weight: bold;
+}
+
 .app-button {
   width: 100%;
   border: none;
@@ -391,6 +397,26 @@ body {
 
 .btn-fade {
   opacity: 0.5;
+}
+
+.menu-item {
+  padding: 18px 10px;
+  list-style: none;
+}
+.menu-item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.menu-item .label {
+  margin-left: 20px;
+  color: #000000;
+}
+.menu-item.menu-dark .label {
+  color: #ffffff;
+}
+.menu-item.menu-selected .label {
+  color: #1DA1F2;
 }
 
 /*# sourceMappingURL=main.css.map */

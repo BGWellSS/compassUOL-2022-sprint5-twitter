@@ -6,3 +6,12 @@ body {
   font-size: $core-font-size;
   font-weight: 400;
 }
+
+//
+.menu-item {
+  .label {
+    font-size: 1.9rem;
+    line-height: 2.2rem;
+    font-weight: bold;
+  }
+}

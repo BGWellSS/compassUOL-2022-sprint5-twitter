@@ -22,7 +22,7 @@ $color-dark-6: #8899A6;
 $color-dark-7: #EBEEF0;
 $color-dark-8: #F7F9FA;
 
-// ---- Component#0F1419
+// ---- Component
 // - Button
 $light-button-color-bg-primary: $color-primary-blue;
 $light-button-color-text-primary: $color-white;
@@ -35,3 +35,9 @@ $light-button-color-text-tertiary: $color-black;
 $light-button-color-bg-quaternary: transparent;
 $light-button-color-text-quaternary: $color-white;
 $light-button-color-border-quaternary: $color-primary-blue-fade;
+
+// ---- Menu
+// - menu item
+$light-menu-color-text-primary: $color-black;
+$dark-menu-color-text-primary: $color-white;
+$menu-color-text-selected: $color-primary-blue;
