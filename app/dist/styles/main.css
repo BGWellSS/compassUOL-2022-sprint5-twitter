@@ -386,14 +386,18 @@ body {
   font-weight: 600;
 }
 
-.tweet-card .user-name,
+.tweet-card .user-name {
+  font-size: 1.5rem;
+  line-height: 1.79rem;
+  font-weight: 900;
+}
 .tweet-card .user-tag,
 .tweet-card .dot-separator,
 .tweet-card .tweet-post-time,
 .tweet-card .tweet-text-camp {
-  font-size: 1.7rem;
-  line-height: 1.99rem;
-  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.79rem;
+  font-weight: 700;
 }
 .tweet-card .interaction-value,
 .tweet-card .show-thread {
@@ -641,7 +645,7 @@ body {
   margin-top: 4px;
 }
 .tweet-card .tweet-content .tweet-image {
-  margin: 4px 0;
+  margin: 10px 0;
   width: 100%;
   border-radius: 16px;
 }
