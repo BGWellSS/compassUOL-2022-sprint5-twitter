@@ -816,4 +816,40 @@ body {
   color: #ffffff;
 }
 
+.follow-section {
+  background: #F7F9FA;
+  border-radius: 16px;
+}
+.follow-section .follow-section-header {
+  padding: 12px 15px;
+  border-bottom: 1px solid #EBEEF0;
+}
+.follow-section .section-title {
+  margin: 0;
+  color: #000000;
+}
+.follow-section .profile {
+  border-bottom: 1px solid #EBEEF0;
+}
+.follow-section .follow-section-footer {
+  padding: 15px;
+}
+.follow-section .follow-showmore {
+  color: #1DA1F2;
+  text-decoration: none;
+}
+.follow-section.follow-section-dark {
+  background: #1C2733;
+}
+.follow-section.follow-section-dark .follow-section-header {
+  border-color: #3A444C;
+}
+.follow-section.follow-section-dark .section-title {
+  margin: 0;
+  color: #ffffff;
+}
+.follow-section.follow-section-dark .profile {
+  border-bottom: 1px solid #3A444C;
+}
+
 /*# sourceMappingURL=main.css.map */
