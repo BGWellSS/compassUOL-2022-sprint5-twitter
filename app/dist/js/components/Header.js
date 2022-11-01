@@ -6,7 +6,7 @@ export const createHeader = ({ label, dark }) => {
     <picture class="image-container">
       <img src="/images/icon-theme-selector.png" alt="theme selector icon">
     </picture>
-  <header>
+  </header>
   `;
     return header;
 };
