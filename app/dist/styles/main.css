@@ -881,4 +881,52 @@ body {
   margin-left: 10px;
 }
 
+.page-404 {
+  background: #1DA1F2;
+}
+.page-404 .header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 15px;
+  background-color: #ffffff;
+}
+.page-404 .header a {
+  text-decoration: none;
+  color: #1DA1F2;
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+.page-404 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1920px;
+  height: calc(100vh - 90px);
+  margin: 0 auto;
+}
+.page-404 .message-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  height: 30%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  font-size: 6rem;
+}
+.page-404 .title-404 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.page-404 .title {
+  font-size: 3rem;
+  margin: 0;
+}
+.page-404 .message {
+  font-size: 1.6rem;
+}
+
 /*# sourceMappingURL=main.css.map */
