@@ -679,4 +679,14 @@ body {
   color: #8899A6;
 }
 
+.spacer {
+  height: 10px;
+  width: 100%;
+  background-color: #F7F9FA;
+  box-sizing: border-box;
+}
+.spacer.spacer-dark {
+  background-color: #3A444C;
+}
+
 /*# sourceMappingURL=main.css.map */
