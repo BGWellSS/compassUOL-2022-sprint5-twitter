@@ -6,7 +6,7 @@ export const createMenuItem = ({ iconName, label, linkURL, dark, selected, }) =>
     <li class="menu-item${selected ? " menu-selected" : ""}">
       <a href="${linkURL ? linkURL : ""}">
         <picture class="image-container">
-          <img src="/images/icon-${iconName}${selected ? "-selected" : ""}.png" alt="${iconName} menu icon">
+          <img src="/images/icon-${iconName}${selected ? "-selected" : ""}.svg" alt="${iconName} menu icon">
         </picture>
         <span class="label">${label ? label : ""}</span>
       </a>
@@ -18,7 +18,7 @@ export const createMenuItem = ({ iconName, label, linkURL, dark, selected, }) =>
     <li class="menu-item${dark ? " menu-dark" : ""}">
       <a href="${linkURL ? linkURL : ""}">
         <picture class="image-container">
-          <img src="/images/icon-${iconName}${dark ? "-dark" : ""}.png" alt="${iconName} menu icon">
+          <img src="/images/icon-${iconName}${dark ? "-dark" : ""}.svg" alt="${iconName} menu icon" class="menu-icon">
         </picture>
         <span class="label">${label ? label : ""}</span>
       </a>

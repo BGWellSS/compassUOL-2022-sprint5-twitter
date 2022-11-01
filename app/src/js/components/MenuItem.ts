@@ -32,7 +32,7 @@ export const createMenuItem = ({
         <picture class="image-container">
           <img src="/images/icon-${iconName}${
       selected ? "-selected" : ""
-    }.png" alt="${iconName} menu icon">
+    }.svg" alt="${iconName} menu icon">
         </picture>
         <span class="label">${label ? label : ""}</span>
       </a>
@@ -46,7 +46,7 @@ export const createMenuItem = ({
         <picture class="image-container">
           <img src="/images/icon-${iconName}${
     dark ? "-dark" : ""
-  }.png" alt="${iconName} menu icon">
+  }.svg" alt="${iconName} menu icon" class="menu-icon">
         </picture>
         <span class="label">${label ? label : ""}</span>
       </a>
