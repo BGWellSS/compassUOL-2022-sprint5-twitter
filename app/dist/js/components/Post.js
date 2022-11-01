@@ -1,6 +1,5 @@
-import { createButton } from "./Button";
-import { createAvatar } from "./Avatar";
-import "./../../../dist/styles/main.css";
+import { createButton } from "./Button.js";
+import { createAvatar } from "./Avatar.js";
 export const createPost = ({ dark, placeholder }) => {
     const userAvatar = createAvatar({
         size: "medium",

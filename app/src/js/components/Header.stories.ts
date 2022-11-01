@@ -1,5 +1,5 @@
 import { Story, Meta } from "@storybook/html";
-import { createHeader, HeaderProps } from "./Header";
+import { createHeader, HeaderProps } from "./Header.js";
 
 export default {
   title: "Components/Header",

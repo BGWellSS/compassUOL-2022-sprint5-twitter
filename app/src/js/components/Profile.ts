@@ -1,6 +1,6 @@
-import { createAvatar } from "./Avatar";
-import { createButton } from "./Button";
-import "./../../../dist/styles/main.css";
+import { createAvatar } from "./Avatar.js";
+import { createButton } from "./Button.js";
+//import "./../../../dist/styles/main.css";
 
 export interface ProfileProps {
   userName: string;

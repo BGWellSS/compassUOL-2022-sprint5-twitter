@@ -1,7 +1,6 @@
-import { createProfile } from "./Profile";
-import { createButton } from "./Button";
-import { createMenuItem } from "./MenuItem";
-import "./../../../dist/styles/main.css";
+import { createProfile } from "./Profile.js";
+import { createButton } from "./Button.js";
+import { createMenuItem } from "./MenuItem.js";
 export const createMenu = ({ dark }) => {
     const menuItems = [
         createMenuItem({

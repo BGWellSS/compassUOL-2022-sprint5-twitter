@@ -1,5 +1,5 @@
-import "./../../../dist/styles/main.css";
-import { createNewsCard } from "./Newscard";
+//import "./../../../dist/styles/main.css";
+import { createNewsCard } from "./Newscard.js";
 
 export interface NewsProps {
   dark?: boolean;

@@ -1,4 +1,4 @@
-import { createNews } from "./News";
+import { createNews } from "./News.js";
 export default {
     title: "Components/News Section",
     argTypes: {

@@ -1,5 +1,5 @@
 import { Story, Meta } from "@storybook/html";
-import { createAvatar, AvatarProps } from "./Avatar";
+import { createAvatar, AvatarProps } from "./Avatar.js";
 
 export default {
   title: "Components/Avatar",

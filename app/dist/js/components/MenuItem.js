@@ -1,4 +1,3 @@
-import "./../../../dist/styles/main.css";
 export const createMenuItem = ({ iconName, label, linkURL, dark, selected, }) => {
     let menuItem = ``;
     if (selected) {

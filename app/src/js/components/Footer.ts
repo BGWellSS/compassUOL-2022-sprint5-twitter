@@ -1,5 +1,5 @@
-import { createButton } from "./Button";
-import "./../../../dist/styles/main.css";
+import { createButton } from "./Button.js";
+//import "./../../../dist/styles/main.css";
 
 export interface FooterProps {
   title: string;

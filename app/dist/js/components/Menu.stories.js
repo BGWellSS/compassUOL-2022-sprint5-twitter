@@ -1,4 +1,4 @@
-import { createMenu } from "./Menu";
+import { createMenu } from "./Menu.js";
 export default {
     title: "Components/Menu",
     argTypes: {

@@ -1,4 +1,4 @@
-import { createAvatar } from "./Avatar";
+import { createAvatar } from "./Avatar.js";
 export default {
     title: "Components/Avatar",
     argTypes: {

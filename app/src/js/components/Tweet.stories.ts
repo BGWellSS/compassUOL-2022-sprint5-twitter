@@ -1,5 +1,5 @@
 import { Story, Meta } from "@storybook/html";
-import { createTweet, TweetProps } from "./Tweet";
+import { createTweet, TweetProps } from "./Tweet.js";
 
 export default {
   title: "Components/Tweet",

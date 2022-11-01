@@ -1,5 +1,5 @@
 import { Story, Meta } from "@storybook/html";
-import { createFollow, FollowProps } from "./Follow";
+import { createFollow, FollowProps } from "./Follow.js";
 
 export default {
   title: "Components/Follow Section",

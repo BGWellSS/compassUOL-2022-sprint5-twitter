@@ -510,7 +510,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 30vw;
-  height: 100vh;
+  height: 100%;
 }
 .aside-menu .app-button {
   margin: 10px 0;

@@ -1,4 +1,4 @@
-import { createTweet } from "./Tweet";
+import { createTweet } from "./Tweet.js";
 export default {
     title: "Components/Tweet",
     argTypes: {

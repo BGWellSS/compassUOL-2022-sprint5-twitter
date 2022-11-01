@@ -1,4 +1,4 @@
-import { createButton } from "./Button";
+import { createButton } from "./Button.js";
 export default {
     title: "Components/Button",
     argTypes: {

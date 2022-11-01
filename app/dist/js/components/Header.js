@@ -1,4 +1,3 @@
-import "./../../../dist/styles/main.css";
 export const createHeader = ({ label, dark }) => {
     const header = `
   <header class="page-header${dark ? " header-dark" : ""}">

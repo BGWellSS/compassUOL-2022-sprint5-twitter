@@ -1,5 +1,5 @@
 import { Story, Meta } from "@storybook/html";
-import { createPost, PostProps } from "./Post";
+import { createPost, PostProps } from "./Post.js";
 
 export default {
   title: "Components/Post",

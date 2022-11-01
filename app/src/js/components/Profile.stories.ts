@@ -1,5 +1,5 @@
 import { Story, Meta } from "@storybook/html";
-import { createProfile, ProfileProps } from "./Profile";
+import { createProfile, ProfileProps } from "./Profile.js";
 
 export default {
   title: "Components/Profile",

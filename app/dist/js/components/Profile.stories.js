@@ -1,4 +1,4 @@
-import { createProfile } from "./Profile";
+import { createProfile } from "./Profile.js";
 export default {
     title: "Components/Profile",
     argTypes: {

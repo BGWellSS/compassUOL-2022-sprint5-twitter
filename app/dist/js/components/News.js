@@ -1,5 +1,4 @@
-import "./../../../dist/styles/main.css";
-import { createNewsCard } from "./Newscard";
+import { createNewsCard } from "./Newscard.js";
 export const createNews = ({ dark }) => {
     const newsItems = [
         createNewsCard({

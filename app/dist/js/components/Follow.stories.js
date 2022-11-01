@@ -1,4 +1,4 @@
-import { createFollow } from "./Follow";
+import { createFollow } from "./Follow.js";
 export default {
     title: "Components/Follow Section",
     argTypes: {

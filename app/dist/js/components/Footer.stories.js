@@ -1,4 +1,4 @@
-import { createFooter } from "./Footer";
+import { createFooter } from "./Footer.js";
 export default {
     title: "Components/Footer",
     argTypes: {

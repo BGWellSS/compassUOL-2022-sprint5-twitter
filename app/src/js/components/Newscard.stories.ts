@@ -1,5 +1,5 @@
 import { Story, Meta } from "@storybook/html";
-import { createNewsCard, NewsCardProps } from "./Newscard";
+import { createNewsCard, NewsCardProps } from "./Newscard.js";
 
 export default {
   title: "Components/News Card",

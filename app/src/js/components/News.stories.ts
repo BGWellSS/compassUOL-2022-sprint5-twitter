@@ -1,5 +1,5 @@
 import { Story, Meta } from "@storybook/html";
-import { createNews, NewsProps } from "./News";
+import { createNews, NewsProps } from "./News.js";
 
 export default {
   title: "Components/News Section",

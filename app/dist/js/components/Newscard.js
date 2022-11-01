@@ -1,4 +1,3 @@
-import "./../../../dist/styles/main.css";
 export const createNewsCard = ({ id, title, time, textContent, tags, dark, }) => {
     const newsCard = `
   <article class="news-card${dark ? " news-card-dark" : ""}">

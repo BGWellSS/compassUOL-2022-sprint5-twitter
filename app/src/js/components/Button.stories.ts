@@ -1,5 +1,5 @@
 import { Story, Meta } from "@storybook/html";
-import { createButton, ButtonProps } from "./Button";
+import { createButton, ButtonProps } from "./Button.js";
 
 export default {
   title: "Components/Button",

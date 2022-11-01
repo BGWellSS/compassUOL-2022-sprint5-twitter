@@ -1,4 +1,4 @@
-import { createSearch } from "./Search";
+import { createSearch } from "./Search.js";
 export default {
     title: "Components/Search",
     argTypes: {

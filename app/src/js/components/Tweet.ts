@@ -1,5 +1,5 @@
-import { createAvatar } from "./Avatar";
-import "./../../../dist/styles/main.css";
+import { createAvatar } from "./Avatar.js";
+//import "./../../../dist/styles/main.css";
 
 export interface TweetProps {
   userName: string;

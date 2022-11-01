@@ -1,5 +1,5 @@
-import "./../../../dist/styles/main.css";
-import { createProfile } from "./Profile";
+//import "./../../../dist/styles/main.css";
+import { createProfile } from "./Profile.js";
 
 export interface FollowProps {
   dark?: boolean;

@@ -1,5 +1,5 @@
 import { Story, Meta } from "@storybook/html";
-import { createSearch, SearchProps } from "./Search";
+import { createSearch, SearchProps } from "./Search.js";
 
 export default {
   title: "Components/Search",

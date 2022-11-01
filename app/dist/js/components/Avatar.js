@@ -1,4 +1,3 @@
-import "./../../../dist/styles/main.css";
 export const createAvatar = ({ size, linkURL, userID }) => {
     let avatarElement = ``;
     const userValue = userID ? userID : "default";

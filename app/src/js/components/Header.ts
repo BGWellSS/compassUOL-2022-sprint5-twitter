@@ -1,4 +1,4 @@
-import "./../../../dist/styles/main.css";
+//import "./../../../dist/styles/main.css";
 
 export interface HeaderProps {
   label: string;

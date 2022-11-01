@@ -1,4 +1,3 @@
-import "./../../../dist/styles/main.css";
 export const createSearch = ({ placeholder, dark }) => {
     const search = `
   <section class="app-search${dark ? " search-dark" : ""}">

@@ -1,5 +1,5 @@
 import { Story, Meta } from "@storybook/html";
-import { createMenu, MenuProps } from "./Menu";
+import { createMenu, MenuProps } from "./Menu.js";
 
 export default {
   title: "Components/Menu",

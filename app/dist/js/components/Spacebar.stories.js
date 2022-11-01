@@ -1,4 +1,4 @@
-import { createSpacer } from "./Spacebar";
+import { createSpacer } from "./Spacebar.js";
 export default {
     title: "Components/Spacer",
     argTypes: {

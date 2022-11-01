@@ -1,4 +1,4 @@
-import { createPost } from "./Post";
+import { createPost } from "./Post.js";
 export default {
     title: "Components/Post",
     argTypes: {

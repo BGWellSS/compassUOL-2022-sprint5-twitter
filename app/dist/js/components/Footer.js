@@ -1,5 +1,4 @@
-import { createButton } from "./Button";
-import "./../../../dist/styles/main.css";
+import { createButton } from "./Button.js";
 export const createFooter = ({ title, desc }) => {
     const loginButton = createButton({
         label: "Log in",

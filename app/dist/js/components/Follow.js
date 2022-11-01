@@ -1,5 +1,4 @@
-import "./../../../dist/styles/main.css";
-import { createProfile } from "./Profile";
+import { createProfile } from "./Profile.js";
 export const createFollow = ({ dark }) => {
     const profileItems = [
         createProfile({

@@ -1,4 +1,4 @@
-import { createNewsCard } from "./Newscard";
+import { createNewsCard } from "./Newscard.js";
 export default {
     title: "Components/News Card",
     argTypes: {

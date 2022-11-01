@@ -1,5 +1,5 @@
 import { Story, Meta } from "@storybook/html";
-import { createFooter, FooterProps } from "./Footer";
+import { createFooter, FooterProps } from "./Footer.js";
 
 export default {
   title: "Components/Footer",

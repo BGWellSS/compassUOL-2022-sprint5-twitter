@@ -1,5 +1,5 @@
 import { Story, Meta } from "@storybook/html";
-import { createSpacer, SpacerProps } from "./Spacebar";
+import { createSpacer, SpacerProps } from "./Spacebar.js";
 
 export default {
   title: "Components/Spacer",

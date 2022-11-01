@@ -1,5 +1,4 @@
-import { createAvatar } from "./Avatar";
-import "./../../../dist/styles/main.css";
+import { createAvatar } from "./Avatar.js";
 export const createTweet = ({ userName, userTagName, userID, userURL, postText, imageURL, dark, }) => {
     const userAvatar = createAvatar({
         size: "medium",

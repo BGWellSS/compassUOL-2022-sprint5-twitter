@@ -1,6 +1,5 @@
-import { createAvatar } from "./Avatar";
-import { createButton } from "./Button";
-import "./../../../dist/styles/main.css";
+import { createAvatar } from "./Avatar.js";
+import { createButton } from "./Button.js";
 export const createProfile = ({ userName, userTagName, profileType, dark, userID, linkURL, }) => {
     const profileAvatar = createAvatar({
         size: profileType === "basic" ? "small" : "medium",

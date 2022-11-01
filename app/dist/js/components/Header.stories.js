@@ -1,4 +1,4 @@
-import { createHeader } from "./Header";
+import { createHeader } from "./Header.js";
 export default {
     title: "Components/Header",
     argTypes: {
