@@ -1,0 +1,16 @@
+@charset "UTF-8";
+// Button SCSS
+
+.avatar {
+  .avatar-image-small {
+    max-width: 40px;
+  }
+
+  .avatar-image-medium {
+    max-width: 50px;
+  }
+
+  .avatar-image {
+    border-radius: 99999px;
+  }
+}

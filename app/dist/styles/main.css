@@ -1,0 +1,932 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+     ========================================================================== */
+/**
+   * Remove the margin in all browsers.
+   */
+body {
+  margin: 0;
+}
+
+/**
+   * Render the `main` element consistently in IE.
+   */
+main {
+  display: block;
+}
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+     ========================================================================== */
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+a {
+  background-color: transparent;
+}
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+   * Add the correct font size in all browsers.
+   */
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+img {
+  border-style: none;
+}
+
+/* Forms
+     ========================================================================== */
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+   * Correct the padding in Firefox.
+   */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+textarea {
+  overflow: auto;
+}
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+     ========================================================================== */
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+details {
+  display: block;
+}
+
+/*
+   * Add the correct display in all browsers.
+   */
+summary {
+  display: list-item;
+}
+
+/* Misc
+     ========================================================================== */
+/**
+   * Add the correct display in IE 10+.
+   */
+template {
+  display: none;
+}
+
+/**
+   * Add the correct display in IE 10.
+   */
+[hidden] {
+  display: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.app-button {
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+  font-weight: 800;
+}
+
+.menu-item .label {
+  font-size: 1.9rem;
+  line-height: 2.26rem;
+  font-weight: 900;
+}
+
+.profile .profile-content .user-name {
+  font-weight: 900;
+  line-height: 1.9rem;
+}
+.profile .profile-content .user-tagname {
+  font-weight: 500;
+  line-height: 1.9rem;
+}
+
+.page-header .header-title {
+  font-size: 1.9rem;
+  line-height: 2.2rem;
+  font-weight: 900;
+}
+
+.tweet-post .text-imput {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+}
+.tweet-post .text-imput::placeholder {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-weight: 600;
+}
+
+.tweet-card .user-name {
+  font-size: 1.5rem;
+  line-height: 1.79rem;
+  font-weight: 900;
+}
+.tweet-card .user-tag,
+.tweet-card .dot-separator,
+.tweet-card .tweet-post-time,
+.tweet-card .tweet-text-camp {
+  font-size: 1.5rem;
+  line-height: 1.79rem;
+  font-weight: 700;
+}
+.tweet-card .interaction-value,
+.tweet-card .show-thread {
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  font-weight: 600;
+}
+
+.app-search .imput-search {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  font-weight: 700;
+}
+
+.news-card {
+  font-size: 1.7rem;
+  line-height: 1.9rem;
+  font-weight: 900;
+}
+.news-card .news-card-header,
+.news-card .tag-label {
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  font-weight: 700;
+}
+
+.news-section .section-title {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 900;
+}
+.news-section .news-showmore {
+  font-size: 1.7rem;
+  line-height: 1.9rem;
+  font-weight: 700;
+}
+
+.page-footer .footer-title {
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  font-weight: 800;
+}
+
+.app-button {
+  width: 100%;
+  border: none;
+  border-radius: 9999px;
+}
+
+.btn-primary {
+  background-color: #1DA1F2;
+  color: #ffffff;
+}
+
+.btn-secondary {
+  padding: 10px;
+  background-color: transparent;
+  color: #1DA1F2;
+  border: 1px solid #1DA1F2;
+}
+
+.btn-tertiary {
+  background-color: #EBEEF0;
+  color: #000000;
+}
+
+.btn-quaternary {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #6CBEF5;
+}
+
+.btn-big {
+  padding: 16px;
+}
+
+.btn-medium {
+  padding: 10px 17px;
+}
+
+.btn-small {
+  padding: 6px 17px;
+}
+
+.btn-fade {
+  opacity: 0.5;
+}
+
+.menu-item {
+  padding: 18px 10px;
+  list-style: none;
+}
+.menu-item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.menu-item .label {
+  margin-left: 20px;
+  color: #000000;
+}
+.menu-item.menu-dark .label {
+  color: #ffffff;
+}
+.menu-item.menu-selected .label {
+  color: #1DA1F2;
+}
+
+.aside-menu {
+  display: flex;
+  flex-direction: column;
+  max-width: 30vw;
+  height: 100vh;
+}
+.aside-menu .app-button {
+  margin: 10px 0;
+}
+.aside-menu .profile {
+  margin-top: auto;
+  align-self: flex-end;
+}
+
+.avatar .avatar-image-small {
+  max-width: 40px;
+}
+.avatar .avatar-image-medium {
+  max-width: 50px;
+}
+.avatar .avatar-image {
+  border-radius: 99999px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+.profile .profile-content {
+  margin-left: 10px;
+}
+.profile .profile-content p {
+  margin: 0;
+}
+.profile .profile-content .user-name {
+  color: #000000;
+}
+.profile .profile-content .user-tagname {
+  color: #5B7083;
+}
+.profile .profile-button {
+  margin-left: auto;
+  padding: 8px;
+}
+.profile.profile-dark .user-name {
+  color: #ffffff;
+}
+.profile.profile-dark .user-tagname {
+  color: #8899A6;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #EBEEF0;
+}
+.page-header .header-title {
+  margin: 0;
+  margin-right: 15px;
+  color: #000000;
+}
+.page-header .image-container {
+  margin-left: auto;
+}
+.page-header.header-dark .header-title {
+  color: #ffffff;
+}
+
+.tweet-post {
+  display: flex;
+  width: 100%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+.tweet-post .post-imput-container {
+  width: 100%;
+  margin-left: 12px;
+}
+.tweet-post .text-imput {
+  width: 100%;
+  padding: 12px 0;
+  margin-bottom: 24px;
+  color: #000000;
+  background: transparent;
+  outline: none;
+  border: 0;
+  box-sizing: border-box;
+  transition: all ease-in-out 300ms;
+}
+.tweet-post .text-imput::placeholder {
+  color: #5B7083;
+}
+.tweet-post .text-imput:focus {
+  margin-bottom: 50px;
+  transition: all ease-in-out 300ms;
+}
+.tweet-post .menu-container {
+  display: flex;
+  justify-content: space-between;
+}
+.tweet-post .post-menu-icons input {
+  margin-right: 15px;
+}
+.tweet-post.post-dark .text-imput {
+  color: #ffffff;
+}
+.tweet-post.post-dark .text-imput::placeholder {
+  color: #8899A6;
+}
+
+.tweet-card {
+  display: flex;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+.tweet-card .tweet-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 10px;
+}
+.tweet-card .tweet-header {
+  display: flex;
+  align-items: center;
+}
+.tweet-card .tweet-header .user-name {
+  margin: 0;
+  color: #000000;
+}
+.tweet-card .tweet-header .user-tag {
+  margin: 0 4px;
+}
+.tweet-card .tweet-header .dot-separator {
+  display: flex;
+  align-items: center;
+}
+.tweet-card .tweet-header .tweet-post-time {
+  margin-left: 4px;
+}
+.tweet-card .user-tag,
+.tweet-card .dot-separator,
+.tweet-card .tweet-post-time,
+.tweet-card .interaction-value {
+  color: #5B7083;
+}
+.tweet-card .tweet-content {
+  margin-top: 4px;
+}
+.tweet-card .tweet-content .tweet-image {
+  margin: 10px 0;
+  width: 100%;
+  border-radius: 16px;
+}
+.tweet-card .tweet-footer {
+  margin-top: 10px;
+  width: 100%;
+}
+.tweet-card .tweet-footer .tweet-interactions {
+  display: flex;
+  width: 100%;
+  margin: 4px 0;
+}
+.tweet-card .tweet-footer .interaction-item {
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+.tweet-card .tweet-footer .interaction-value {
+  margin-left: 10px;
+  color: #5B7083;
+}
+.tweet-card .tweet-footer .show-thread {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #1DA1F2;
+}
+.tweet-card.tweet-dark .user-name,
+.tweet-card.tweet-dark .tweet-text-camp {
+  color: #ffffff;
+}
+.tweet-card.tweet-dark .user-tag,
+.tweet-card.tweet-dark .dot-separator,
+.tweet-card.tweet-dark .tweet-post-time,
+.tweet-card.tweet-dark .interaction-value {
+  color: #8899A6;
+}
+
+.app-search {
+  display: flex;
+  align-items: center;
+  background-color: #EBEEF0;
+  padding: 10px 16px;
+  border-radius: 99999px;
+  box-sizing: border-box;
+}
+.app-search .search-icon {
+  max-height: 19px;
+  max-width: 19px;
+}
+.app-search .imput-search {
+  margin-left: 15px;
+  width: 100%;
+  color: #000000;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.app-search .imput-search::placeholder {
+  color: #5B7083;
+}
+.app-search.search-dark {
+  background-color: #283340;
+}
+.app-search.search-dark .imput-search {
+  color: #ffffff;
+}
+.app-search.search-dark .imput-search::placeholder {
+  color: #8899A6;
+}
+
+.spacer {
+  height: 10px;
+  width: 100%;
+  background-color: #F7F9FA;
+  box-sizing: border-box;
+}
+.spacer.spacer-dark {
+  background-color: #3A444C;
+}
+
+.news-card {
+  padding: 10px 15px;
+  color: #000000;
+  border-bottom: 1px solid #EBEEF0;
+  box-sizing: border-box;
+}
+.news-card .content-container {
+  display: flex;
+}
+.news-card .card-content {
+  width: 100%;
+}
+.news-card .news-card-header {
+  display: flex;
+}
+.news-card .dot-separator {
+  margin: 0 4px;
+}
+.news-card .news-card-text {
+  margin: 6px 0;
+}
+.news-card .news-card-image-container {
+  margin-left: 15px;
+}
+.news-card .news-card-image {
+  max-height: 69px;
+  max-width: 71px;
+  border-radius: 12px;
+}
+.news-card .tags {
+  margin-left: 4px;
+  color: #1DA1F2;
+  text-decoration: none;
+}
+.news-card .news-card-header,
+.news-card .tag-label {
+  color: #5B7083;
+}
+.news-card.news-card-dark {
+  color: #ffffff;
+  border-color: #3A444C;
+}
+.news-card.news-card-dark .news-card-header,
+.news-card.news-card-dark .tag-label {
+  color: #8899A6;
+}
+
+.news-section {
+  background: #F7F9FA;
+  border-radius: 16px;
+}
+.news-section .news-section-header {
+  padding: 12px 15px;
+  border-bottom: 1px solid #EBEEF0;
+}
+.news-section .section-title {
+  margin: 0;
+  color: #000000;
+}
+.news-section .news-section-footer {
+  padding: 15px;
+}
+.news-section .news-showmore {
+  color: #1DA1F2;
+  text-decoration: none;
+}
+.news-section.news-section-dark {
+  background: #1C2733;
+}
+.news-section.news-section-dark .news-section-header {
+  border-color: #3A444C;
+}
+.news-section.news-section-dark .section-title {
+  margin: 0;
+  color: #ffffff;
+}
+
+.follow-section {
+  background: #F7F9FA;
+  border-radius: 16px;
+}
+.follow-section .follow-section-header {
+  padding: 12px 15px;
+  border-bottom: 1px solid #EBEEF0;
+}
+.follow-section .section-title {
+  margin: 0;
+  color: #000000;
+}
+.follow-section .profile {
+  border-bottom: 1px solid #EBEEF0;
+}
+.follow-section .follow-section-footer {
+  padding: 15px;
+}
+.follow-section .follow-showmore {
+  color: #1DA1F2;
+  text-decoration: none;
+}
+.follow-section.follow-section-dark {
+  background: #1C2733;
+}
+.follow-section.follow-section-dark .follow-section-header {
+  border-color: #3A444C;
+}
+.follow-section.follow-section-dark .section-title {
+  margin: 0;
+  color: #ffffff;
+}
+.follow-section.follow-section-dark .profile {
+  border-bottom: 1px solid #3A444C;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+  background: #1DA1F2;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+.page-footer .footer-content {
+  margin-right: 25%;
+}
+.page-footer .footer-title,
+.page-footer .footer-desc {
+  margin: 0;
+}
+.page-footer .footer-buttons {
+  display: flex;
+  align-items: center;
+}
+.page-footer .button-item {
+  margin-left: 10px;
+}
+
+.page-404 {
+  background: #1DA1F2;
+}
+.page-404 .header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 15px;
+  background-color: #ffffff;
+}
+.page-404 .header a {
+  text-decoration: none;
+  color: #1DA1F2;
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+.page-404 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1920px;
+  height: calc(100vh - 90px);
+  margin: 0 auto;
+}
+.page-404 .message-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  height: 30%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  font-size: 6rem;
+}
+.page-404 .title-404 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.page-404 .title {
+  font-size: 3rem;
+  margin: 0;
+}
+.page-404 .message {
+  font-size: 1.6rem;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,58 @@
+@charset "UTF-8";
+// Page 404
+
+.page-404 {
+  $header-padding: 15px;
+  background: $color-primary-blue;
+
+  .header {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: $header-padding;
+    background-color: $color-white;
+
+    a {
+      text-decoration: none;
+      color: $color-primary-blue;
+      font-size: 1.8rem;
+      font-weight: 900;
+    }
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+    height: calc(100vh - (60px + ($header-padding * 2)));
+    margin: 0 auto;
+  }
+
+  .message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: 30%;
+    background-color: $color-white;
+    border-radius: 15px;
+    font-size: 6rem;
+  }
+
+  .title-404 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .message {
+    font-size: 1.6rem;
+  }
+}
