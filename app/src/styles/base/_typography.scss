@@ -94,3 +94,17 @@ body {
     font-weight: 500;
   }
 }
+
+// ---- News card
+.news-card {
+  font-size: 1.7rem;
+  line-height: 1.9rem;
+  font-weight: 700;
+
+  .news-card-header,
+  .tag-label {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+  }
+}
