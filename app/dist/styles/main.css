@@ -514,6 +514,16 @@ body {
   align-self: flex-end;
 }
 
+.avatar .avatar-image-small {
+  max-width: 40px;
+}
+.avatar .avatar-image-medium {
+  max-width: 50px;
+}
+.avatar .avatar-image {
+  border-radius: 99999px;
+}
+
 .profile {
   display: flex;
   align-items: center;
