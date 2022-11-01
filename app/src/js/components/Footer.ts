@@ -26,8 +26,12 @@ export const createFooter = ({ title, desc }: FooterProps) => {
       <p class="footer-desc">${desc}</p>
     </div>
     <div class="footer-buttons">
-      ${loginButton}
-      ${signupButton}
+      <div class="button-item">
+        ${loginButton}
+      </div>
+      <div class="button-item">
+        ${signupButton}
+      </div>
     </div>
   </footer>
   `;

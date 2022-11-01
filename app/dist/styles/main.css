@@ -435,6 +435,12 @@ body {
   font-weight: 700;
 }
 
+.page-footer .footer-title {
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  font-weight: 800;
+}
+
 .app-button {
   width: 100%;
   border: none;
@@ -850,6 +856,29 @@ body {
 }
 .follow-section.follow-section-dark .profile {
   border-bottom: 1px solid #3A444C;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+  background: #1DA1F2;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+.page-footer .footer-content {
+  margin-right: 25%;
+}
+.page-footer .footer-title,
+.page-footer .footer-desc {
+  margin: 0;
+}
+.page-footer .footer-buttons {
+  display: flex;
+  align-items: center;
+}
+.page-footer .button-item {
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
