@@ -563,11 +563,19 @@ body {
   width: 100%;
   padding: 12px 0;
   margin-bottom: 24px;
+  color: #000000;
+  background: transparent;
   outline: none;
   border: 0;
+  box-sizing: border-box;
+  transition: all ease-in-out 300ms;
 }
 .tweet-post .text-imput::placeholder {
   color: #5B7083;
+}
+.tweet-post .text-imput:focus {
+  margin-bottom: 50px;
+  transition: all ease-in-out 300ms;
 }
 .tweet-post .menu-container {
   display: flex;
@@ -575,6 +583,9 @@ body {
 }
 .tweet-post .post-menu-icons input {
   margin-right: 15px;
+}
+.tweet-post.post-dark .text-imput {
+  color: #ffffff;
 }
 .tweet-post.post-dark .text-imput::placeholder {
   color: #8899A6;

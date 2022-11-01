@@ -17,7 +17,7 @@ export const createPost = ({ dark, placeholder }) => {
         ${userAvatar}
       </div>
       <div class="post-imput-container">
-        <input type="text" id="post-aria" name="post-text" placeholder="${placeholder ? placeholder : "What’s happening?"}" class="text-imput">
+        <input type="text" id="post-aria" name="post-text" placeholder="${placeholder ? placeholder : "What’s happening?"}" maxlength="380" class="text-imput">
         <div class="menu-container">
           <div class="post-menu-icons">
             <input type="image" src="/images/icon-image-submit.png" alt="image imput icon" width="24" height="24">
