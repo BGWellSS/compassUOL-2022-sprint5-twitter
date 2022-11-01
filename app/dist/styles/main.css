@@ -529,6 +529,8 @@ body {
   align-items: center;
   justify-content: flex-start;
   width: 100%;
+  padding: 10px 15px;
+  box-sizing: border-box;
 }
 .profile .profile-content {
   margin-left: 10px;
