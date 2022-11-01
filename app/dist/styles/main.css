@@ -402,6 +402,12 @@ body {
   font-weight: 500;
 }
 
+.app-search .imput-search {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  font-weight: 500;
+}
+
 .app-button {
   width: 100%;
   border: none;
@@ -637,6 +643,39 @@ body {
 .tweet-card.tweet-dark .dot-separator,
 .tweet-card.tweet-dark .tweet-post-time,
 .tweet-card.tweet-dark .interaction-value {
+  color: #8899A6;
+}
+
+.app-search {
+  display: flex;
+  align-items: center;
+  background-color: #EBEEF0;
+  padding: 10px 16px;
+  border-radius: 99999px;
+  box-sizing: border-box;
+}
+.app-search .search-icon {
+  max-height: 19px;
+  max-width: 19px;
+}
+.app-search .imput-search {
+  margin-left: 15px;
+  width: 100%;
+  color: #000000;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.app-search .imput-search::placeholder {
+  color: #5B7083;
+}
+.app-search.search-dark {
+  background-color: #283340;
+}
+.app-search.search-dark .imput-search {
+  color: #ffffff;
+}
+.app-search.search-dark .imput-search::placeholder {
   color: #8899A6;
 }
 

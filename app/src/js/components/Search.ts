@@ -8,7 +8,9 @@ export interface SearchProps {
 export const createSearch = ({ placeholder, dark }: SearchProps) => {
   const search = `
   <section class="app-search${dark ? " search-dark" : ""}">
-    <img src="/images/icon-search${dark ? "-dark" : ""}.png" alt="search icon">
+    <img src="/images/icon-search${
+      dark ? "-dark" : ""
+    }.png" alt="search icon" class="search-icon">
     <input type="text" id="imput-search" name="search-text" placeholder="${
       placeholder ? placeholder : "Search Twitter"
     }" class="imput-search">
