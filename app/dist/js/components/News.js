@@ -8,7 +8,7 @@ export const createNews = ({ dark }) => {
             time: "Last night",
             textContent: "England’s Chief Medical Officer says the UK is at the most dangerous time of the pandemic",
             tags: "#covid19",
-            dark: false,
+            dark: dark,
         }),
         createNewsCard({
             id: "1",
@@ -16,7 +16,7 @@ export const createNews = ({ dark }) => {
             time: "4h ago",
             textContent: "Parler may go offline following suspensions by Amazon, Apple and Google",
             tags: "#trump",
-            dark: false,
+            dark: dark,
         }),
         createNewsCard({
             id: "2",
@@ -24,13 +24,13 @@ export const createNews = ({ dark }) => {
             time: "1h ago",
             textContent: "India vs Australia: India hold on to earn a draw on Day 5 in Sydney Test",
             tags: "#sport",
-            dark: false,
+            dark: dark,
         }),
     ];
     const newsSection = `
     <section class="news-section${dark ? " news-section-dark" : ""}">
       <header class="news-section-header">
-        <h3>What’s happening</h3>
+        <h3 class="section-title">What’s happening</h3>
       </header>
       <div class="cards-container">
         ${newsItems
@@ -39,8 +39,8 @@ export const createNews = ({ dark }) => {
     })
         .join("")}
       </div>
-      <footer>
-        <a class="news-showmore">Show more</a>
+      <footer class="news-section-footer">
+        <a href="/404.html" class="news-showmore">Show more</a>
       </footer>
     </section>
   `;
