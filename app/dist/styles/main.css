@@ -386,6 +386,22 @@ body {
   font-weight: 500;
 }
 
+.tweet-card .user-name,
+.tweet-card .user-tag,
+.tweet-card .dot-separator,
+.tweet-card .tweet-post-time,
+.tweet-card .tweet-text-camp {
+  font-size: 1.7rem;
+  line-height: 1.99rem;
+  font-weight: 700;
+}
+.tweet-card .interaction-value,
+.tweet-card .show-thread {
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  font-weight: 500;
+}
+
 .app-button {
   width: 100%;
   border: none;
@@ -543,6 +559,84 @@ body {
   margin-right: 15px;
 }
 .tweet-post.post-dark .text-imput::placeholder {
+  color: #8899A6;
+}
+
+.tweet-card {
+  display: flex;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+.tweet-card .tweet-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 10px;
+}
+.tweet-card .tweet-header {
+  display: flex;
+  align-items: center;
+}
+.tweet-card .tweet-header .user-name {
+  margin: 0;
+  color: #000000;
+}
+.tweet-card .tweet-header .user-tag {
+  margin: 0 4px;
+}
+.tweet-card .tweet-header .dot-separator {
+  display: flex;
+  align-items: center;
+}
+.tweet-card .tweet-header .tweet-post-time {
+  margin-left: 4px;
+}
+.tweet-card .user-tag,
+.tweet-card .dot-separator,
+.tweet-card .tweet-post-time,
+.tweet-card .interaction-value {
+  color: #5B7083;
+}
+.tweet-card .tweet-content {
+  margin-top: 4px;
+}
+.tweet-card .tweet-content .tweet-image {
+  margin: 4px 0;
+  width: 100%;
+  border-radius: 16px;
+}
+.tweet-card .tweet-footer {
+  margin-top: 10px;
+  width: 100%;
+}
+.tweet-card .tweet-footer .tweet-interactions {
+  display: flex;
+  width: 100%;
+  margin: 4px 0;
+}
+.tweet-card .tweet-footer .interaction-item {
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+.tweet-card .tweet-footer .interaction-value {
+  margin-left: 10px;
+  color: #5B7083;
+}
+.tweet-card .tweet-footer .show-thread {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #1DA1F2;
+}
+.tweet-card.tweet-dark .user-name,
+.tweet-card.tweet-dark .tweet-text-camp {
+  color: #ffffff;
+}
+.tweet-card.tweet-dark .user-tag,
+.tweet-card.tweet-dark .dot-separator,
+.tweet-card.tweet-dark .tweet-post-time,
+.tweet-card.tweet-dark .interaction-value {
   color: #8899A6;
 }
 

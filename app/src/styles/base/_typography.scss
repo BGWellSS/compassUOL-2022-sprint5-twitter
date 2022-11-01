@@ -64,3 +64,24 @@ body {
     }
   }
 }
+
+// ---- Tweet card
+.tweet-card {
+
+  .user-name,
+  .user-tag,
+  .dot-separator,
+  .tweet-post-time,
+  .tweet-text-camp {
+    font-size: 1.7rem;
+    line-height: 1.99rem;
+    font-weight: 700;
+  }
+
+  .interaction-value,
+  .show-thread {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    font-weight: 500;
+  }
+}
