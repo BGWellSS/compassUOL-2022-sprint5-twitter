@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -345,45 +345,45 @@ html {
 body {
   font-family: "Nunito", sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
-.btn-secondary {
+.app-button {
   font-size: 1.5rem;
   line-height: 1.9rem;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .menu-item .label {
   font-size: 1.9rem;
-  line-height: 2.2rem;
-  font-weight: bold;
+  line-height: 2.26rem;
+  font-weight: 900;
 }
 
 .profile .profile-content .user-name {
-  font-weight: bold;
+  font-weight: 900;
   line-height: 1.9rem;
 }
 .profile .profile-content .user-tagname {
-  font-weight: normal;
+  font-weight: 500;
   line-height: 1.9rem;
 }
 
 .page-header .header-title {
   font-size: 1.9rem;
   line-height: 2.2rem;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .tweet-post .text-imput {
   font-size: 2rem;
   line-height: 2.4rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 .tweet-post .text-imput::placeholder {
   font-size: 2rem;
   line-height: 2.4rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .tweet-card .user-name,
@@ -393,31 +393,42 @@ body {
 .tweet-card .tweet-text-camp {
   font-size: 1.7rem;
   line-height: 1.99rem;
-  font-weight: 700;
+  font-weight: 900;
 }
 .tweet-card .interaction-value,
 .tweet-card .show-thread {
   font-size: 1.5rem;
   line-height: 1.7rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .app-search .imput-search {
   font-size: 1.6rem;
   line-height: 1.9rem;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .news-card {
   font-size: 1.7rem;
   line-height: 1.9rem;
-  font-weight: 700;
+  font-weight: 900;
 }
 .news-card .news-card-header,
 .news-card .tag-label {
   font-size: 1.6rem;
   line-height: 1.8rem;
-  font-weight: 500;
+  font-weight: 700;
+}
+
+.news-section .section-title {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 900;
+}
+.news-section .news-showmore {
+  font-size: 1.7rem;
+  line-height: 1.9rem;
+  font-weight: 700;
 }
 
 .app-button {
@@ -757,6 +768,36 @@ body {
 .news-card.news-card-dark .news-card-header,
 .news-card.news-card-dark .tag-label {
   color: #8899A6;
+}
+
+.news-section {
+  background: #F7F9FA;
+  border-radius: 16px;
+}
+.news-section .news-section-header {
+  padding: 12px 15px;
+  border-bottom: 1px solid #EBEEF0;
+}
+.news-section .section-title {
+  margin: 0;
+  color: #000000;
+}
+.news-section .news-section-footer {
+  padding: 15px;
+}
+.news-section .news-showmore {
+  color: #1DA1F2;
+  text-decoration: none;
+}
+.news-section.news-section-dark {
+  background: #1C2733;
+}
+.news-section.news-section-dark .news-section-header {
+  border-color: #3A444C;
+}
+.news-section.news-section-dark .section-title {
+  margin: 0;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -4,15 +4,15 @@
 body {
   font-family: $font-family-primary;
   font-size: $core-font-size;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 // ---- Button
 // - butonSecondary
-.btn-secondary {
+.app-button {
   font-size: 1.5rem;
   line-height: 1.9rem;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 // ---- Menu
@@ -20,8 +20,8 @@ body {
 .menu-item {
   .label {
     font-size: 1.9rem;
-    line-height: 2.2rem;
-    font-weight: bold;
+    line-height: 2.26rem;
+    font-weight: 900;
   }
 }
 
@@ -30,12 +30,12 @@ body {
 .profile {
   .profile-content {
     .user-name {
-      font-weight: bold;
+      font-weight: 900;
       line-height: 1.9rem;
     }
 
     .user-tagname {
-      font-weight: normal;
+      font-weight: 500;
       line-height: 1.9rem;
     }
   }
@@ -46,7 +46,7 @@ body {
   .header-title {
     font-size: 1.9rem;
     line-height: 2.2rem;
-    font-weight: bold;
+    font-weight: 900;
   }
 }
 
@@ -55,12 +55,12 @@ body {
   .text-imput {
     font-size: 2rem;
     line-height: 2.4rem;
-    font-weight: 400;
+    font-weight: 500;
 
     &::placeholder {
       font-size: 2rem;
       line-height: 2.4rem;
-      font-weight: 500;
+      font-weight: 600;
     }
   }
 }
@@ -75,14 +75,14 @@ body {
   .tweet-text-camp {
     font-size: 1.7rem;
     line-height: 1.99rem;
-    font-weight: 700;
+    font-weight: 900;
   }
 
   .interaction-value,
   .show-thread {
     font-size: 1.5rem;
     line-height: 1.7rem;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 
@@ -91,7 +91,7 @@ body {
   .imput-search {
     font-size: 1.6rem;
     line-height: 1.9rem;
-    font-weight: 500;
+    font-weight: 700;
   }
 }
 
@@ -99,12 +99,27 @@ body {
 .news-card {
   font-size: 1.7rem;
   line-height: 1.9rem;
-  font-weight: 700;
+  font-weight: 900;
 
   .news-card-header,
   .tag-label {
     font-size: 1.6rem;
     line-height: 1.8rem;
-    font-weight: 500;
+    font-weight: 700;
+  }
+}
+
+// ---- News section
+.news-section {
+  .section-title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 900;
+  }
+
+  .news-showmore {
+    font-size: 1.7rem;
+    line-height: 1.9rem;
+    font-weight: 700;
   }
 }
